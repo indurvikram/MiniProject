@@ -1,0 +1,52 @@
+.head h1{
+margin-left: 500px;
+}
+.head h1:hover{
+    cursor: pointer;
+    color: darkturquoise;
+}
+.section label:hover{
+    cursor: pointer;
+    color: red;
+}
+.section label{
+    margin-left: 520px;
+}
+.rating input{
+    display: none;
+}
+.rating label{
+    font-size: 30px;
+    cursor: pointer;
+}
+.rating{
+    margin-left: 520px;
+}
+.rating input[type="checkbox"]:checked~label{
+    color: green;
+}
+.button{
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    font-size: 20px;
+}
+.rating label:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer{
+    margin-left: 550px;
+    margin-top: 10px;        
+}
+.footer:hover{
+    cursor: pointer;
+    color: brown;
+}
+.background{
+    background-color: yellow;
+    border: 1px solid black;
+    height: 200px; width: 100%;
+    margin-top: -160px;
+}
